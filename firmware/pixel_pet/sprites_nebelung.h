@@ -90,3 +90,53 @@ const char* const FACE_HAPPY_ROWS[FACE_H] = {
   "...#.#.#..",
   "....#.#...",
 };
+
+const char* const FACE_HUNGRY_ROWS[FACE_H] = {
+  ".##....##.",
+  ".##....##.",
+  "..........",
+  ".....#....",
+  "....#.#...",
+};
+
+// Eating: eyes shut, mouth open (alternates with the blink face)
+const char* const FACE_CHEW_ROWS[FACE_H] = {
+  "..........",
+  ".##....##.",
+  "..........",
+  "....##....",
+  "....##....",
+};
+
+// Small pictures, drawn at normal size (1 pixel = 1 screen pixel)
+const int HEART_W = 7;
+const int HEART_H = 6;
+const char* const HEART_ROWS[HEART_H] = {
+  ".##.##.",
+  "#######",
+  "#######",
+  ".#####.",
+  "..###..",
+  "...#...",
+};
+
+const int BOWL_W = 16;
+const int BOWL_H = 5;
+const char* const BOWL_ROWS[BOWL_H] = {
+  "################",
+  ".#............#.",
+  "..#..........#..",
+  "...##########...",
+  "................",
+};
+
+// White chest patch (a small bib), drawn on top of the body
+const int PATCH_W = 5;
+const int PATCH_H = 3;
+const int PATCH_X = 8;
+const int PATCH_Y = 13;
+const char* const PATCH_ROWS[PATCH_H] = {
+  "#####",
+  ".###.",
+  "..#..",
+};

@@ -5,6 +5,14 @@
 // OLED screen (I2C)
 #define PIN_OLED_SDA 21
 #define PIN_OLED_SCL 22
-#define OLED_ADDR    0x3C   // use the address the I2C scanner printed
+#define OLED_ADDR    0x3C   // found by the I2C scanner
 #define OLED_WIDTH   128
 #define OLED_HEIGHT  64
+
+// Inputs
+#define PIN_TOUCH    27     // capacitive touch module: left cat
+#define PIN_BUTTON   26     // push button module: right cat
+#define PIN_MIC      34     // analog sound sensor (must be 32-39, see docs)
+
+// Sound
+#define PIN_BUZZER   25     // passive buzzer module
