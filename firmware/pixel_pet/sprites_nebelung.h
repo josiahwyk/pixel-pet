@@ -140,3 +140,99 @@ const char* const PATCH_ROWS[PATCH_H] = {
   ".###.",
   "..#..",
 };
+
+// Watching the butterfly: eyes look left or right
+const char* const FACE_LOOK_L_ROWS[FACE_H] = {
+  "##....##..",
+  "##....##..",
+  "..........",
+  "...#.#.#..",
+  "....#.#...",
+};
+const char* const FACE_LOOK_R_ROWS[FACE_H] = {
+  "..##....##",
+  "..##....##",
+  "..........",
+  "...#.#.#..",
+  "....#.#...",
+};
+
+// Grooming: eyes shut, little tongue out
+const char* const FACE_GROOM_ROWS[FACE_H] = {
+  "..........",
+  ".##....##.",
+  "..........",
+  "...#.#.#..",
+  ".....#....",
+};
+
+// The two front legs (short lines low on the body): columns, and top row (2 rows tall)
+const int LEG_LEFT_COL = 7;    // left of the screen
+const int LEG_RIGHT_COL = 13;  // right of the screen
+const int LEG_TOP = 15;
+
+// A raised paw (drawn at cat size, 2x2 per pixel). Used for scratching.
+const int PAW_W = 4;
+const int PAW_H = 3;
+const char* const PAW_ROWS[PAW_H] = {
+  ".##.",
+  "####",
+  ".##.",
+};
+
+// Grooming: small paw rubbing the cheek, with the arm below it.
+// Drawn at GROOM_X, GROOM_Y. Two positions: paw up and paw down.
+const int GROOM_W = 4;
+const int GROOM_H = 9;
+const int GROOM_X = 3;
+const int GROOM_Y = 7;
+const char* const GROOM_UP_ROWS[GROOM_H] = {
+  ".#.#",
+  "####",
+  "####",
+  ".##.",
+  ".#..",
+  ".#..",
+  ".#..",
+  "#...",
+  "#...",
+};
+const char* const GROOM_DOWN_ROWS[GROOM_H] = {
+  "....",
+  "....",
+  ".#.#",
+  "####",
+  "####",
+  ".##.",
+  ".#..",
+  ".#..",
+  "#...",
+};
+
+// Butterfly, two wing positions (normal size)
+const int FLY_W = 7;
+const int FLY_H = 5;
+const char* const FLY_OPEN_ROWS[FLY_H] = {
+  "##...##",
+  "###.###",
+  ".##.##.",
+  "###.###",
+  ".#...#.",
+};
+const char* const FLY_SHUT_ROWS[FLY_H] = {
+  ".......",
+  "..#.#..",
+  "..###..",
+  "..#.#..",
+  ".......",
+};
+
+// Brush for grooming the cat (normal size)
+const int BRUSH_W = 10;
+const int BRUSH_H = 4;
+const char* const BRUSH_ROWS[BRUSH_H] = {
+  "##########",
+  "##########",
+  "#.#.#.#.#.",
+  "#.#.#.#.#.",
+};
