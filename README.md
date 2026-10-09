@@ -44,3 +44,7 @@ Hardware: Keyestudio ESP32 (ESP32-WROOM-32) on an IO shield, SSD1306 128x64 I2C 
 - A 3D-printed "little house" case
 - Poke the cats from a phone over Wi-Fi
 - Move to a LILYGO T-QT Pro (ESP32-S3, colour screen, battery) for the gift version
+
+## License
+
+All rights reserved. See [LICENSE](LICENSE). No permission is granted to use, copy, modify or distribute this code without prior written permission.
