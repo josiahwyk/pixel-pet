@@ -47,4 +47,4 @@ Hardware: Keyestudio ESP32 (ESP32-WROOM-32) on an IO shield, SSD1306 128x64 I2C 
 
 ## License
 
-All rights reserved. See [LICENSE](LICENSE). No permission is granted to use, copy, modify or distribute this code without prior written permission.
+All rights reserved. This code is published for viewing only. You may not use, copy, modify or distribute it without my written permission. To request permission, see [my GitHub profile](https://github.com/josiahwyk) for contact details. See [LICENSE](LICENSE).
